@@ -53,7 +53,6 @@ double random_double(double min, double max) {
 	double div = RAND_MAX / range;
 	return min + (rand() / div);
 }
-
 int main(void) {
 	printf("==========GAME START !==========\n");
 	srand((unsigned int)time(NULL));
